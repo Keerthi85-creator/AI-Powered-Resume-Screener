@@ -335,7 +335,6 @@ If the application launches successfully, MongoDB has been configured correctly.
 ### User Page
 <p align="center">
   <img src="docs/screenshots/navbar_and_user_inf.png" width="900">
-  <img src="docs/screenshots/preview.png" width="900">
 </p>
 
 ## Resume Summary, Score, and Breakdown with Target Role Selection
