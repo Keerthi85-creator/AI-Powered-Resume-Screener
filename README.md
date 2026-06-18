@@ -32,6 +32,7 @@ AI Resume Analyzer is a production-ready Streamlit application that analyzes res
 - KMeans-based resume clustering for internal analysis
 - Cluster-level insights for grouped resumes
 - CSV export of analytics data
+- hardcoded admin password - admin123
 
 
 ## System Architecture
