@@ -1,6 +1,6 @@
 ### AI Resume Analyzer
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://ai-resume-analyzer-tgwj3qjq8wnj3rf9dzappua.streamlit.app/)
+[![Live Demo](https://ai-powered-resume-screener-4mrnkvkguvthemkpsjhtjh.streamlit.app/)
 
 AI Resume Analyzer is a production-ready Streamlit application that analyzes resumes using explainable, rule-based logic and semantic similarity techniques. It provides users with structured resume insights such as skill extraction, experience estimation, resume scoring, job-role matching, and learning recommendations, while offering administrators advanced analytics, resume deduplication, similarity search, and clustering powered by persisted embeddings in MongoDB.
 
