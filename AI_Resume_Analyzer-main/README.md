@@ -184,6 +184,139 @@ This entity–event separation allows the system to scale analytics independentl
     steamlit run app/main.py
 
 
+## MongoDB Setup
+
+
+
+This project uses MongoDB as the primary persistence layer for resume data, analytics, feedback, and admin insights.
+
+
+
+### 1. Create a MongoDB Atlas Account
+
+
+
+1. Visit https://www.mongodb.com/atlas
+
+2. Create a free MongoDB Atlas account.
+
+3. Create a free M0 cluster.
+
+
+
+### 2. Create a Database User
+
+
+
+1. Navigate to **Database Access**.
+
+2. Click **Add New Database User**.
+
+3. Create a username and password.
+
+4. Assign **Read and Write to Any Database** or **Atlas Admin** privileges.
+
+
+
+### 3. Configure Network Access
+
+
+
+1. Navigate to **Network Access**.
+
+2. Click **Add IP Address**.
+
+3. For development environments such as GitHub Codespaces or Streamlit Cloud, add:
+
+
+
+```text
+
+0.0.0.0/0
+
+```
+
+
+
+4. Save the configuration and wait for Atlas to apply the changes.
+
+
+
+### 4. Obtain the Connection String
+
+
+
+1. Open your cluster.
+
+2. Click **Connect** → **Drivers**.
+
+3. Select **Python**.
+
+4. Copy the generated connection string.
+
+
+
+Example:
+
+
+
+```text
+
+mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/resume_analyzer?retryWrites=true&w=majority
+
+```
+
+
+
+### 5. Create Environment Variables
+
+
+
+Create a `.env` file in the project root:
+
+
+
+```env
+
+MONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/resume_analyzer?retryWrites=true&w=majority
+
+```
+
+
+
+### 6. Verify Connection
+
+
+
+Start the application:
+
+
+
+```bash
+
+streamlit run app/main.py
+
+```
+
+
+
+If the application launches successfully, MongoDB has been configured correctly.
+
+
+
+### Important
+
+
+
+* Do NOT commit your `.env` file.
+
+* Do NOT share MongoDB usernames or passwords publicly.
+
+* The `.env` file is already excluded through `.gitignore`.
+
+* Each developer should use their own MongoDB Atlas account and connection string.
+
+
 ## Current Status
 
 - Core user-facing resume analysis is complete and feature-locked.
@@ -320,10 +453,6 @@ The project demonstrates practical applications of NLP, analytics, and system de
 
 <h2 id="author">Author</h2>
 
-Developed by **Chidvilas**
-
-
-📧 Email: [palarpachidvilas2419@gmail.com](mailto:palarpachidvilas2419@gmail.com) 
 
 ## Contributions
 
