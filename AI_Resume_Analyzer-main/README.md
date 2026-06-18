@@ -1,14 +1,3 @@
-<h1 align="center" id="title">Resume-Analyzer</h1>
-
-<p align="center"><img src="https://socialify.git.ci/chidvi123/AI_Resume_Analyzer/image?language=1&amp;name=1&amp;owner=1&amp;theme=Dark" alt="project-image"></p>
-
-<p align="center">
-  <a href="#project-structure">Project Structure</a> •
-  <a href="#preview">Preview</a> •
-  <a href="#Author">Contact</a>
-</p>
-
-
 ### AI Resume Analyzer
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://ai-resume-analyzer-tgwj3qjq8wnj3rf9dzappua.streamlit.app/)
@@ -450,8 +439,6 @@ If the application launches successfully, MongoDB has been configured correctly.
 
 AI Resume Analyzer is a fully functional, modular resume analysis system designed with scalability, explainability, and real-world usability in mind.  
 The project demonstrates practical applications of NLP, analytics, and system design using Streamlit and MongoDB.
-
-<h2 id="author">Author</h2>
 
 
 ## Contributions
